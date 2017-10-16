@@ -4,6 +4,7 @@ Demo Ansible multi-site project
 Use this project as a template for a production grade Ansible project.
 
 Directory structure:
+```
 .
 ├── ansible.cfg
 ├── LICENSE
@@ -77,4 +78,4 @@ Directory structure:
         │       ├── 50_ha -> ../../../group_vars/50_ha
         │       └── 90_sitevars
         └── hosts
-
+```
