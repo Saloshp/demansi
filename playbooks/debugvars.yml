@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+
+  - name: "Display operational site"
+    debug:
+      msg: "{{ ansible_os_family }} - Current site: {{ site_name }}"
+
+  - name: "Display operational deploy tagz"
+    debug:
+      var: "tagz"
+

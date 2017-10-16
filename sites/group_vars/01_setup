@@ -1,0 +1,28 @@
+# Author: Salo Shp <saloshp@gmail.com>
+#
+#    This file is part of Demansi. <https://github.com/Saloshp/demansi.git>
+#
+#    Demansi is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Demansi is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with Demansi.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+tagz:
+- debug    # Show extra information about variables or data, for debugging
+- clear    # Clear/Delete/Remove previous artifacts, leftovers from old installations or OS defaults
+- init     # Initialize a component, (e.g create a default user for cluster management)
+- bin      # Install binaries / Extract archives for installation purposes
+- conf     # Deploy configuration items, templates, files
+- service  # Operate on services - restart/stop/disable
+- verify   # Verify functionality (e.g wait for a service port, make sure a file was created)
+- xtraz    # Extra steps, not required for an operational site
+
