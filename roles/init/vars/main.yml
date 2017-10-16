@@ -16,7 +16,5 @@
 #    along with Demansi.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Site 'dev' variables
-
-site_id: "dev"
+---
 

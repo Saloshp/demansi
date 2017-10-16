@@ -16,7 +16,14 @@
 #    along with Demansi.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Site 'dev' variables
+---
+galaxy_info:
+  author: Salo Shp
+  description: your_description
+  company: your_company
+  license: license (GPLv3)
+  min_ansible_version: 2.4.0.0
+  galaxy_tags: []
 
-site_id: "dev"
+dependencies: []
 

@@ -1,0 +1,16 @@
+{% extends "file.j2" %}
+
+
+{% block content %}
+# auto-generated hosts file for site '{{ item_name }}'
+localhost ansible_connection=local
+
+[ha-nodes]
+ha01 node_id=1
+ha02 node_id=2
+ha03 node_id=3
+
+[ha-nodes:vars]
+group_id=0
+{% endblock %}
+

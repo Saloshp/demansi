@@ -15,4 +15,15 @@
 #    You should have received a copy of the GNU General Public License
 #    along with Demansi.  If not, see <http://www.gnu.org/licenses/>.
 #
+
+# auto-generated hosts file for site 'stage'
 localhost ansible_connection=local
+
+[ha-nodes]
+ha01 node_id=1
+ha02 node_id=2
+ha03 node_id=3
+
+[ha-nodes:vars]
+group_id=0
+

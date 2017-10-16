@@ -16,7 +16,18 @@
 #    along with Demansi.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Site 'dev' variables
+---
+- hosts: localhost
+#  gather_facts: no
+#  no_log: True
+  vars_prompt:
+  - name: "init_action"
+    prompt: "What would you like to add? (site/role)"
+    private: no
 
-site_id: "dev"
+  - name: "item_name"
+    prompt: "Name?"
+    private: no
 
+  roles:
+  - { role: init }
